@@ -1,0 +1,14 @@
+{
+  "name": "node-rabbit-mq",
+  "version": "1.0.0",
+  "description": "Integrating node with RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "rabbit-up": "docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management"
+  },
+  "author": "Nayara Souza",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
